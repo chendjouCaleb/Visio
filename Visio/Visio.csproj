@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="SkiaSharp" Version="2.80.2" />
+        <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.80.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Math" />
+    </ItemGroup>
+
+</Project>
